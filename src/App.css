@@ -2,7 +2,128 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playwrite GB S', sans-serif;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+.custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 150px;
+  background: transparent;
+}
+
+.custom-range::-webkit-slider-runnable-track {
+  width: 12px;
+  height: 100%;
+  background: linear-gradient(to top, #00dbde, #fc00ff);
+  border-radius: 12px;
+}
+
+.custom-range::-moz-range-track,
+.custom-range::-ms-track {
+  width: 12px;
+  height: 100%;
+  background: white;
+  border-radius: 5px;
+}
+
+.custom-range::-webkit-slider-thumb,
+.custom-range::-moz-range-thumb,
+.custom-range::-ms-thumb {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(to top, #00dbde, #fc00ff);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10 auto;
+  padding: 20px;
+}
+
+
+input[type="text"] {
+  width: 100%;
+}
+
+.toDo {
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+
+button {
+  flex: 1;
+}
+
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .toDos {
+    flex-direction: column;
+  }
+
+  .addTodo {
+    flex-direction: column;
+  }
+
+  .addTodo input {
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    margin: 5px 0;
+    width: 100%;
+  }
 }
