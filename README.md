@@ -11,7 +11,7 @@
 - [Installation and Usage](#installation-and-usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments-)
 
 ## Project Description 📝
 
