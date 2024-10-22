@@ -6,7 +6,7 @@
 
 - [Project Description](#project-description-)
 - [Features](#features-)
-- [Tech Stack](#tech-stack-)
+- [Tech Stack](#tech-stack-%EF%B8%8F)
 - [Prerequisites](#prerequisites-)
 - [Installation and Usage](#installation-and-usage-)
 - [Screenshots](#screenshots-)
