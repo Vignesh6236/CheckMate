@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [Project Description](#project-description)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation and Usage](#installation-and-usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
+- [Project Description](#project-description-)
+- [Features](#features-)
+- [Tech Stack](#tech-stack-)
+- [Prerequisites](#prerequisites-)
+- [Installation and Usage](#installation-and-usage-)
+- [Screenshots](#screenshots-)
+- [Contributing](#contributing-)
 - [Acknowledgments](#acknowledgments-)
 
 ## Project Description 📝
