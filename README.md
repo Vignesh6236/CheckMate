@@ -54,6 +54,7 @@ To run QuickTick locally, follow these steps:
 
 3. Open a terminal in **Visual Studio Code** and run the development server:
    ```bash
+   npm install
    npm run dev
    ```
 
