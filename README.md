@@ -10,6 +10,7 @@
 - [Prerequisites](#prerequisites-)
 - [Installation and Usage](#installation-and-usage-)
 - [Screenshots](#screenshots-)
+- [Deployment](#deployment-)
 - [Contributing](#contributing-)
 - [Acknowledgments](#acknowledgments-)
 
@@ -73,6 +74,12 @@ To run QuickTick locally, follow these steps:
 
 
 *The screenshots demonstrate the responsive design across various screen sizes.*
+
+## Deployment 🚀
+
+QuickTick! is deployed using **[Netlify](https://www.netlify.com/)** for seamless hosting and quick deployment. You can access the live site here:  
+**[https://vignesh-quicktick.netlify.app/](https://vignesh-quicktick.netlify.app/)**
+
 
 ## Contributing 🤝
 
